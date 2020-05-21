@@ -8,7 +8,7 @@ class MatchSoundex:
 
     def __init__(self):
         self.p = ParsedTweet.ParsedTweet()
-        self.match_soundex_file = open("C:\\Users\\TingYuehShih\Downloads\\2019S1-proj1-data(Window)\\MatchSoundex.txt", "r+")
+        self.match_soundex_file = open("\\2019S1-proj1-data(Window)\\MatchSoundex.txt", "r+")
 
     def get_match(self, dictList ,token):
         candidates = []
