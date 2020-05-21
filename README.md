@@ -28,3 +28,8 @@ For every token in misspelled, if its two hashes are both the same as the two ha
 Firstly, GED technique was applied to find matches from dictionary within 2 (inclusive) edit distance of the token. 
 
 Secondly, phonetic methods were applied to the set of matches based on edit distance, which refines the results to be phonetically similarto the token.
+
+## Future Improvements
+- Optimization of the dictionary.
+- Finding the threshold of global edit distance statistically to increase recall while avoiding lowering precision.
+- Improving method of tie breaking words by using a more accurate approach systematically 
