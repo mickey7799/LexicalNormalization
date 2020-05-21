@@ -23,7 +23,7 @@ class CorrectMisspell:
 
     def __init__(self):
         self.p = ParsedTweet.ParsedTweet()
-        self.correct_file = open("C:\\Users\\TingYuehShih\Downloads\\2019S1-proj1-data(Window)\\correctTheMispell.txt", "r+")
+        self.correct_file = open("\\2019S1-proj1-data(Window)\\correctTheMispell.txt", "r+")
 
     def isWordInDict(self, word, words_in_dict):
         if word in words_in_dict:

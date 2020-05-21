@@ -2,9 +2,9 @@ import  Utility
 
 class Accuracy:
     def __init__(self):
-        self.correctedTheMisspell_file = open("C:\\Users\\TingYuehShih\Downloads\\2019S1-proj1-data(Window)\\correctTheMispell.txt", "r")
+        self.correctedTheMisspell_file = open("\\2019S1-proj1-data(Window)\\correctTheMispell.txt", "r")
         self.correctedTheMisspellList = Utility.readFileToList( self.correctedTheMisspell_file)
-        self.correct_file = open("C:\\Users\\TingYuehShih\Downloads\\2019S1-proj1-data(Window)\\correct.txt", "r")
+        self.correct_file = open("\\2019S1-proj1-data(Window)\\correct.txt", "r")
         self.correct_list = Utility.readFileToList(self.correct_file)
         self.correct_answer_count = 0
 

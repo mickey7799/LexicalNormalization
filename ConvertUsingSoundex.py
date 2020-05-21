@@ -5,8 +5,8 @@ import  Utility
 class ConvertUsingSoundex:
     def __init__(self):
         self.p = ParsedTweet.ParsedTweet()
-        self.tweet_soundex_file = open("C:\\Users\\TingYuehShih\Downloads\\2019S1-proj1-data(Window)\\tweetConvertedToSoundex.txt", "r+")
-        self.dict_soundex_file = open("C:\\Users\\TingYuehShih\Downloads\\2019S1-proj1-data(Window)\\dictConvertedToSoundex.txt", "r+")
+        self.tweet_soundex_file = open("\\2019S1-proj1-data(Window)\\tweetConvertedToSoundex.txt", "r+")
+        self.dict_soundex_file = open("\\2019S1-proj1-data(Window)\\dictConvertedToSoundex.txt", "r+")
 
 if __name__ == "__main__":
     c = ConvertUsingSoundex()
